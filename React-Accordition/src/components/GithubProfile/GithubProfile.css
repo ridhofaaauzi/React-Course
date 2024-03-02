@@ -1,0 +1,61 @@
+.github-profile-container {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input-wrapper {
+  display: flex;
+  gap: 20px;
+  justify-content: centers;
+  margin-bottom: 20px;
+}
+
+.input-wrapper input {
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+}
+
+.input-wrapper button {
+  padding: 5px 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #19fff7;
+  color: #000;
+  cursor: pointer;
+}
+
+.user {
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid;
+}
+
+.avatar {
+  height: 150px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+}
+
+.name-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.user-avatar {
+  display: flex;
+  justify-content: center;
+}
